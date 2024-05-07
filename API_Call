@@ -1,0 +1,25 @@
+GET 	:  http://localhost:8080/products/3
+O/P:
+{
+    "product": {
+        "id": 3,
+        "title": "Mens Cotton Jacket",
+        "price": 55.99,
+        "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+        "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+        "category": {
+            "categoryId": 0,
+            "categoryName": null,
+            "products": null
+        }
+    },
+    "responseStatus": "SUCCESS"
+}
+================================================================================================
+Task: 
+---------
+1. Use Webclient instead of RestTemplate
+2.Implement get all Product Api's.
+3. Create DTO'S for Data exchange between client(Browser) and Backend.
+
+=================================================================================================
